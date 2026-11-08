@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Dataset and generated artifacts (keep folder structure with .gitkeep)
+dataset/**/*
+!dataset/**/.gitkeep
+models/*
+!models/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# Notebook checkpoints
+.ipynb_checkpoints/
